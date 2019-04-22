@@ -120,6 +120,8 @@ class TributeRange {
         let replaceEvent = new CustomEvent('tribute-replaced', {
             detail: {
                 item: item,
+                context: context,
+                info: info,
                 event: originalEvent
             }
         })
